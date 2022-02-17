@@ -135,8 +135,8 @@ extensions.extend([
 ])
 
 html_theme_options = {
-    "github_user": "sdpython",
-    "github_repo": "onnxcustom",
+    "github_user": "xadupre",
+    "github_repo": "draftdoc",
     "github_version": "master",
     "collapse_navigation": True,
     "show_nav_level": 2,
@@ -189,11 +189,7 @@ intersphinx_mapping.update({
     'mlprodict':
         ('http://www.xavierdupre.fr/app/mlprodict/helpsphinx/', None),
     'numpy': ('https://docs.scipy.org/doc/numpy/', None),
-    'onnxcustom':
-        ('http://www.xavierdupre.fr/app/onnxcustom/helpsphinx/', None),
     'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
-    'pandas_streaming':
-        ('http://www.xavierdupre.fr/app/pyquickhelper/helpsphinx/', None),
     'python': (
         'https://docs.python.org/{.major}'.format(sys.version_info),
         None),
