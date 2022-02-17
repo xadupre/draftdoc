@@ -28,6 +28,7 @@ extensions = [
     "sphinx_gallery.gen_gallery",
     'sphinx.ext.autodoc',
     'sphinx.ext.graphviz',
+    'sphinx.ext.napoleon',
     'matplotlib.sphinxext.plot_directive',
     'pyquickhelper.sphinxext.sphinx_cmdref_extension',
     'pyquickhelper.sphinxext.sphinx_collapse_extension',
@@ -83,6 +84,7 @@ sphinx_gallery_conf = {
 }
 
 epkg_dictionary = {
+    'Anaconda': 'https://www.anaconda.com/',
     'C': 'https://en.wikipedia.org/wiki/C_(programming_language)',
     'C++': 'https://en.wikipedia.org/wiki/C%2B%2B',
     'cython': 'https://cython.org/',

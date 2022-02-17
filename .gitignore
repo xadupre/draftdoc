@@ -1,2 +1,7 @@
 *.pyc
 onnx_ort/_static/*.js
+onnx_ort/auto_examples/*
+onnx_ort/build/*
+onnx_ort/*.csv
+onnx_ort/*.onnx
+onnx_ort/onnxruntime*.json
